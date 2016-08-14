@@ -33,7 +33,7 @@
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Ali J\documents\visual studio 2015\Projects\Direct3DIntro\Debug\Direct3DIntro\Direct3DIntro.exe">
       <PackagePath>Direct3DIntro.exe</PackagePath>
-      <Modified>2016-08-14T08:48:08.376</Modified>
+      <Modified>2016-08-14T23:39:53.758</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ali J\documents\visual studio 2015\Projects\Direct3DIntro\Debug\Direct3DIntro\Direct3DIntro.winmd">
       <PackagePath>Direct3DIntro.winmd</PackagePath>
