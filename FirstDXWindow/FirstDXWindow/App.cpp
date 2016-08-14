@@ -16,12 +16,19 @@ using namespace Platform;
 // class definition for the core framework of the app
 ref class App sealed : public IFrameworkView
 {
+private:
+	bool didCloseWindow; // change this to true when it's time to shut down the window
+
 public:
 	virtual void Initialize(CoreApplicationView^ appView)
 	{
 		// subscribe the OnActivated function to handle the Activated 'event'
 		appView->Activated += ref new TypedEventHandler<CoreApplicationView^, IActivatedEventArgs^>(this, &App::OnActivated);
-
+		
+		didCloseWindow = false;
+		
+		CoreApplication::Suspending += ref new EventHandler<SuspendingEventArgs ^>(this, &App::OnSuspending);
+		CoreApplication::Resuming += ref new EventHandler<Object ^>(this, &App::OnResuming);
 	}
 
 	virtual void SetWindow(CoreWindow ^Window)
@@ -29,6 +36,7 @@ public:
 		Window->PointerPressed += ref new TypedEventHandler<CoreWindow ^, PointerEventArgs ^>(this, &App::PointerPressed);
 		Window->PointerWheelChanged += ref new TypedEventHandler<CoreWindow ^,PointerEventArgs ^>(this, &App::OnPointerWheelChanged);
 		Window->KeyDown += ref new TypedEventHandler<CoreWindow ^, KeyEventArgs ^>(this, &App::OnKeyDown);
+		Window->Closed += ref new TypedEventHandler<CoreWindow ^, CoreWindowEventArgs ^>(this, &App::OnClosed);
 	}
 
 	virtual void Load(String ^EntryPoint)
@@ -40,9 +48,14 @@ public:
 	{
 		// obtain a pointer to the window
 		CoreWindow^ Window = CoreWindow::GetForCurrentThread();
+		
+		// repeat until window shuts down
+		while (!didCloseWindow)
+		{
+			// run ProcessEvents() to dispatch events
+			Window->Dispatcher->ProcessEvents(CoreProcessEventsOption::ProcessAllIfPresent);
+		}
 
-		// run ProcessEvents() to dispatch events
-		Window->Dispatcher->ProcessEvents(CoreProcessEventsOption::ProcessUntilQuit);
 		
 	}
 
@@ -108,6 +121,21 @@ public:
 			Dialog.ShowAsync();
 		}
 	}
+
+	void OnSuspending(Object ^sender, SuspendingEventArgs ^args) 
+	{
+
+	}
+
+	void OnResuming(Object ^sender, Object ^args)
+	{
+
+	}
+
+	void OnClosed(CoreWindow ^sender, CoreWindowEventArgs ^args)
+	{
+		didCloseWindow = true;
+	}
 };
 
 
@@ -129,3 +157,6 @@ int main(Array<String^>^ args)
 	CoreApplication::Run(ref new AppSource());
 	return 0;
 }
+
+
+
