@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-MULQ4Q4</Machine>
+    <WindowsUser>Ali J</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Release|Win32</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>22159bd9-7bd6-4840-84e0-a2ad052b30ff</PackageIdentityName>
+    <PackageIdentityPublisher>CN=Ali J</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\Ali J\documents\visual studio 2015\Projects\Direct3DIntro\Direct3DIntro\Release\</IntermediateOutputPath>
+    <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>false</RemoveNonLayoutFiles>
+    <RegisteredManifestChecksum>3234A0EF5257D152853981C8122A65668D1777C608652BC061A34C80FAE984C6</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>22159bd9-7bd6-4840-84e0-a2ad052b30ff_1.0.0.0_x86__jsa3pn8xba9rc</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>22159bd9-7bd6-4840-84e0-a2ad052b30ff_jsa3pn8xba9rc!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>22159bd9-7bd6-4840-84e0-a2ad052b30ff</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Ali J</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Ali J\documents\visual studio 2015\Projects\Direct3DIntro\Release\Direct3DIntro\ilc\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-08-14T08:47:41.773</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Ali J\documents\visual studio 2015\Projects\Direct3DIntro\Release\Direct3DIntro\ilc\Assets\LockScreenLogo.scale-200.png">
+      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2015-09-20T13:00:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ali J\documents\visual studio 2015\Projects\Direct3DIntro\Release\Direct3DIntro\ilc\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-09-20T13:00:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ali J\documents\visual studio 2015\Projects\Direct3DIntro\Release\Direct3DIntro\ilc\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-09-20T13:00:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ali J\documents\visual studio 2015\Projects\Direct3DIntro\Release\Direct3DIntro\ilc\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-09-20T13:00:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ali J\documents\visual studio 2015\Projects\Direct3DIntro\Release\Direct3DIntro\ilc\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-09-20T13:00:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ali J\documents\visual studio 2015\Projects\Direct3DIntro\Release\Direct3DIntro\ilc\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-09-20T13:00:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ali J\documents\visual studio 2015\Projects\Direct3DIntro\Release\Direct3DIntro\ilc\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-09-20T13:00:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ali J\documents\visual studio 2015\Projects\Direct3DIntro\Release\Direct3DIntro\ilc\Direct3DIntro.exe">
+      <PackagePath>Direct3DIntro.exe</PackagePath>
+      <Modified>2016-08-14T08:47:41.009</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ali J\documents\visual studio 2015\Projects\Direct3DIntro\Release\Direct3DIntro\ilc\Direct3DIntro.pdb">
+      <PackagePath>Direct3DIntro.pdb</PackagePath>
+      <Modified>2016-08-14T08:47:41.202</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ali J\documents\visual studio 2015\Projects\Direct3DIntro\Release\Direct3DIntro\ilc\Direct3DIntro.winmd">
+      <PackagePath>Direct3DIntro.winmd</PackagePath>
+      <Modified>2016-08-14T06:53:03.953</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ali J\documents\visual studio 2015\Projects\Direct3DIntro\Release\Direct3DIntro\ilc\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2016-08-14T08:47:41.569</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.24123.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.24123.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\ARM\Microsoft.VCLibs.ARM.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.24123.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.24123.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x64\Microsoft.VCLibs.x64.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.24123.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.24123.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x86\Microsoft.VCLibs.x86.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>
