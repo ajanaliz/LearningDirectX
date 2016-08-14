@@ -33,7 +33,7 @@
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Ali J\documents\visual studio 2015\Projects\FirstDXWindow\Debug\FirstDXWindow\FirstDXWindow.exe">
       <PackagePath>FirstDXWindow.exe</PackagePath>
-      <Modified>2016-08-13T23:48:16.682</Modified>
+      <Modified>2016-08-14T01:51:39.841</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ali J\documents\visual studio 2015\Projects\FirstDXWindow\Debug\FirstDXWindow\FirstDXWindow.winmd">
       <PackagePath>FirstDXWindow.winmd</PackagePath>
