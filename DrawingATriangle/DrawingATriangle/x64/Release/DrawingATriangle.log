@@ -1,0 +1,11 @@
+﻿  compilation object save succeeded; see C:\Users\Ali J\documents\visual studio 2015\Projects\DrawingATriangle\x64\Release\DrawingATriangle\PixelShader.cso
+  compilation object save succeeded; see C:\Users\Ali J\documents\visual studio 2015\Projects\DrawingATriangle\x64\Release\DrawingATriangle\VertexShader.cso
+  App.cpp
+  Game.cpp
+  Generating code
+  331 of 882 functions (37.5%) were compiled, the rest were copied from previous compilation.
+    294 functions were new in current compilation
+    136 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  DrawingATriangle.vcxproj -> C:\Users\Ali J\documents\visual studio 2015\Projects\DrawingATriangle\x64\Release\DrawingATriangle\DrawingATriangle.exe
+  DrawingATriangle.vcxproj -> C:\Users\Ali J\documents\visual studio 2015\Projects\DrawingATriangle\x64\Release\DrawingATriangle\DrawingATriangle.pdb (Full PDB)
