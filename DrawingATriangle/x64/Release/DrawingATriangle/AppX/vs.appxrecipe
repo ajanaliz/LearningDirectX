@@ -67,11 +67,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ali J\documents\visual studio 2015\Projects\DrawingATriangle\x64\Release\DrawingATriangle\ilc\DrawingATriangle.exe">
       <PackagePath>DrawingATriangle.exe</PackagePath>
-      <Modified>2016-08-15T07:10:25.058</Modified>
+      <Modified>2016-09-05T10:58:06.017</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ali J\documents\visual studio 2015\Projects\DrawingATriangle\x64\Release\DrawingATriangle\ilc\DrawingATriangle.pdb">
       <PackagePath>DrawingATriangle.pdb</PackagePath>
-      <Modified>2016-08-15T07:10:25.199</Modified>
+      <Modified>2016-09-05T10:58:06.147</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ali J\documents\visual studio 2015\Projects\DrawingATriangle\x64\Release\DrawingATriangle\ilc\DrawingATriangle.winmd">
       <PackagePath>DrawingATriangle.winmd</PackagePath>
@@ -79,7 +79,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ali J\documents\visual studio 2015\Projects\DrawingATriangle\x64\Release\DrawingATriangle\ilc\PixelShader.cso">
       <PackagePath>PixelShader.cso</PackagePath>
-      <Modified>2016-08-15T07:10:20.658</Modified>
+      <Modified>2016-09-05T10:27:45.519</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ali J\documents\visual studio 2015\Projects\DrawingATriangle\x64\Release\DrawingATriangle\ilc\resources.pri">
       <PackagePath>resources.pri</PackagePath>
@@ -87,7 +87,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ali J\documents\visual studio 2015\Projects\DrawingATriangle\x64\Release\DrawingATriangle\ilc\VertexShader.cso">
       <PackagePath>VertexShader.cso</PackagePath>
-      <Modified>2016-08-15T07:10:20.788</Modified>
+      <Modified>2016-09-05T10:59:51.875</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

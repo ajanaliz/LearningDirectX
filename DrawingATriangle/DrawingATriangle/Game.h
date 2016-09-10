@@ -18,9 +18,16 @@ public:
 	ComPtr<ID3D11VertexShader> vertexShader;
 	ComPtr<ID3D11PixelShader> pixelShader;
 	ComPtr<ID3D11InputLayout> inputLayout;
+	ComPtr<ID3D11Buffer> constantBuffer;
 
 
 	struct VERTEX
+	{
+		float X, Y, Z; // vertex position
+		float R, G, B; // color values
+	};
+
+	struct OFFSET
 	{
 		float X, Y, Z;
 	};

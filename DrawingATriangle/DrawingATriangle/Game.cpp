@@ -126,6 +126,15 @@ void CGame::Render()
 	// setting up the primitive topology
 	deviceContext->IASetPrimitiveTopology(D3D11_PRIMITIVE_TOPOLOGY_TRIANGLELIST);
 
+	OFFSET Offset;
+	Offset.X = 0.5f;
+	Offset.Y = 0.2f;
+	Offset.Z = 0.7f;
+
+	deviceContext->UpdateSubresource(constantBuffer.Get(), 0, 0, &Offset, 0, 0);
+
+	deviceContext->Draw(3, 0);
+
 	// swap the back buffer and the front buffer
 	swapChain->Present(1, 0);
 }
@@ -134,9 +143,9 @@ void CGame::InitGraphics()
 {
 	VERTEX Vertices[] = 
 	{
-		{0.0f, 0.5f, 0.0f},
-		{0.45f, -0.5f, 0.0f},
-		{-0.45f, -0.5f, 0.0f}
+		{0.0f, 0.5f, 0.0f,    1.0f, 0.0f, 0.0f},
+		{0.45f, -0.5f, 0.0f,  0.0f, 1.0f, 0.0f},
+		{-0.45f, -0.5f, 0.0f, 0.0f, 0.0f, 1.0f}
 	};
 
 	D3D11_BUFFER_DESC bufferDesc = { 0 };
@@ -176,4 +185,12 @@ void CGame::InitPipeline()
 	device->CreateInputLayout(inputElementDesc, ARRAYSIZE(inputElementDesc), VSFile->Data, VSFile->Length, &inputLayout);
 	deviceContext->IASetInputLayout(inputLayout.Get());
 
+
+	D3D11_BUFFER_DESC bufferDesc = { 0 };
+	bufferDesc.Usage = D3D11_USAGE_DEFAULT;
+	bufferDesc.ByteWidth = 16;
+	bufferDesc.BindFlags = D3D11_BIND_CONSTANT_BUFFER;
+
+	device->CreateBuffer(&bufferDesc, nullptr, &constantBuffer);
+	deviceContext->VSSetConstantBuffers(0, 1, constantBuffer.GetAddressOf());
 }
